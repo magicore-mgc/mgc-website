@@ -1,0 +1,47 @@
+/**
+ * MAGICORE DESIGN SYSTEM — Palette thống nhất — chia sẻ cho cả 2 sites (website-public + website-admin).
+ * Nguồn: trích từ assets/logo-full.svg (MagiCore): Blue #1736F5, Yellow #FEC70A.
+ * Dùng: `@import "@magicore/content/src/tokens.css";` sau `@import "tailwindcss";` trong globals.css của cả 2 sites.
+ */
+
+/* ——— Light — website-public (mặc định, không cần .dark) ——— */
+@theme inline {
+  --font-display: var(--font-inter, sans-serif);
+
+  --color-background:  #FFFFFF;
+  --color-foreground:  #1C1B19;
+  --color-card:        #FFFFFF;
+  --color-popover:     #FFFFFF;
+  --color-primary:     #1736F5;
+  --color-primary-fg:  #FFFFFF;
+  --color-secondary:   #EBE9E6;
+  --color-accent:      #FEC70A;
+  --color-muted:       #F2F1EF;
+  --color-border:      #E7E5E1;
+  --color-input:       #E7E5E1;
+  --color-ring:        #1736F5;
+  --color-destructive: #D84949;
+  --color-success:     #059669;
+  --color-warning:     #D4A45F;
+  --color-info:        #2563EB;
+}
+
+/* ——— Dark — website-admin (khi <html> có class .dark) ——— */
+.dark {
+  --color-background:  #0E0D0B;
+  --color-foreground:  #F5F3E9;
+  --color-card:        #1B1812;
+  --color-popover:     #1B1812;
+  --color-primary:     #FEC70A;
+  --color-primary-fg:  #0E0D0B;
+  --color-secondary:   #1736F5;
+  --color-accent:      #FEC70A;
+  --color-muted:       #27241E;
+  --color-border:      #3F3C32;
+  --color-input:       #3F3C32;
+  --color-ring:        #FEC70A;
+  --color-destructive: #E36B6B;
+  --color-success:     #34D399;
+  --color-warning:     #FBBF24;
+  --color-info:        #60A5FA;
+}

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Màu chung cho cả 2 sites — import từ package @magicore/content (1 chỗ duy nhất). */
+@import "@magicore/content/src/tokens.css";
+
+html {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}

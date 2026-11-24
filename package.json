@@ -1,0 +1,14 @@
+{
+    "name": "magicore-website",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "install": "pnpm install",
+        "dev": "pnpm -r --parallel dev",
+        "dev:backend": "pnpm --filter backend dev",
+        "dev:public": "pnpm --filter website-public dev",
+        "dev:admin": "pnpm --filter website-admin dev",
+        "build": "pnpm -r build",
+        "clean": "pnpm -r --parallel clean"
+    }
+}

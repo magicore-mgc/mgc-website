@@ -1,0 +1,7 @@
+packages:
+  - backend
+  - package
+  - website-public
+  - website-admin
+minimumReleaseAgeExclude:
+  - hono@4.13.21

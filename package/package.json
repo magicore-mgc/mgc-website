@@ -1,0 +1,11 @@
+{
+  "name": "@magicore/content",
+  "version": "1.0.0",
+  "description": "Shared content generation + design tokens for the magicore-website projects",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./src/tokens.css": "./src/tokens.css"
+  }
+}
